@@ -1,0 +1,41 @@
+/* import font inter */
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;700&display=swap');
+
+body{
+    font-family: 'Inter', sans-serif;
+}
+
+/* footer */
+footer {
+    background-color: #19345E;
+    color: #ffffff;
+}
+
+.footer-brand img {
+    width: min(100% - 1rem, 130px);
+    margin-bottom: 20px;
+}
+
+.overview-footer span {
+    font-weight: 500;
+    font-size: 1.15rem;
+}
+
+.overview-footer p {
+    margin-top: 6px;
+}
+
+.overview-footer p .btn-footer {
+    color: white;
+    font-size: 1rem;
+    font-weight: 400;
+    text-decoration: none;
+}
+
+.footer-section-1 {
+    border-bottom: 1px solid rgba(255,255,255, 0.1);
+}
+
+.nav-footer ul li a {
+    color: white;
+}
