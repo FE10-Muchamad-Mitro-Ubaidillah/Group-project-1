@@ -22,35 +22,23 @@ font-size: 20px;
 .images img {
 width: 450px;
 height: 450px;
-background: url('/asset/images/Group\ 16136@2x@2x.png')
+background: url ('/asset/images/Group\ 16136@2x@2x.png');
 border-radius: 3px;
 
 }
 
-.text p button{
+.text p button {
     background-color: #19345E;
     color: #FFFFFF;
     border-radius: 1px;
-
+    flex-basis: 60%;
 }
 
 .text p {
 
-left: 17.86%;
-right: 61.75%;
-top: 69.4%;
-bottom: 21.13%;
+flex-basis: 40%;
 
 }
-
-.text p2{
-
-left: 17.86%;
-right: 61.75%;
-top: 69.4%;
-bottom: 21.13%;
-}
-
 .text li element {
 
 height: 31px;
@@ -58,6 +46,65 @@ left: 0px;
 
 }
 
-.text brands1{
-    
+/* book-content */
+.book-content {
+    background-color: #E7EBFC;
+    padding: 100px 250px 50px 250px;
+    color: #19345E;
+}
+
+.book-content h2 {
+    font-size: 3.25rem;
+    font-weight: 700;
+    line-height: 62px;
+    margin-bottom: 24px;
+}
+
+.book-content p {
+    font-size: 1.15rem;
+    line-height: 28px;
+    margin-bottom: 60px;
+}
+
+.body-book {
+    border-bottom: 2px solid #B4B4B4;
+}
+
+.img-sponsorship img {
+    width: min(100% - 1rem, 140px);
+}
+
+/* footer */
+footer {
+    background-color: #19345E;
+    color: #ffffff;
+}
+
+.footer-brand img {
+    width: min(100% - 1rem, 130px);
+    margin-bottom: 20px;
+}
+
+.overview-footer span {
+    font-weight: 500;
+    font-size: 1.15rem;
+}
+
+.overview-footer p {
+    margin-top: 6px;
+}
+
+.overview-footer p .btn-footer {
+    color: white;
+    font-size: 1rem;
+    font-weight: 400;
+    text-decoration: none;
+}
+
+.footer-section-1 {
+    border-bottom: 1px solid rgba(255,255,255, 0.1);
+}
+
+.nav-footer .nav-link {
+    color: white;
 }
