@@ -1,11 +1,11 @@
-@media (min-width: 992px) {
+@media (max-width:  991.98px) {
     .content-features-2 .text-content-2 h2 {
-        font-size: 2.3rem;
+        font-size: 2rem;
         line-height: 50px;
     }
 
     .content-features-2 .img-content-2 {
-        width: 350px;
+        width: min(100% - 2rem,350px);
         height: 500px;
     }
 }
