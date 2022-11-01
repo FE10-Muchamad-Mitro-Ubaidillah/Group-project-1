@@ -1,0 +1,63 @@
+.alta {
+    /* icon */
+width: 130px;
+height: 65px;
+
+}
+
+.text h1 {
+
+font-style: normal;
+font-weight: 700;
+font-size: 64px;
+color: #19345E;
+}
+
+.text p {
+font-style: normal;
+font-weight: 400;
+font-size: 20px;
+}
+
+.images img {
+width: 450px;
+height: 450px;
+background: url('/asset/images/Group\ 16136@2x@2x.png')
+border-radius: 3px;
+
+}
+
+.text p button{
+    background-color: #19345E;
+    color: #FFFFFF;
+    border-radius: 1px;
+
+}
+
+.text p {
+
+left: 17.86%;
+right: 61.75%;
+top: 69.4%;
+bottom: 21.13%;
+
+}
+
+.text p2{
+
+left: 17.86%;
+right: 61.75%;
+top: 69.4%;
+bottom: 21.13%;
+}
+
+.text li element {
+
+height: 31px;
+left: 0px;
+
+}
+
+.text brands1{
+    
+}
