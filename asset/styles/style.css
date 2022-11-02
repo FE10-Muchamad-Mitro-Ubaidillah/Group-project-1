@@ -1,0 +1,524 @@
+/* navbar */
+.active {
+    color: #19345E!important;
+    font-weight: 500;
+}
+
+.navbar-brand img {
+    width: min(100% - 1rem, 130px);
+    
+}
+
+.navbar-brand {
+    width: min(100%, 200px);
+}
+
+.nav-item .nav-link {
+    color: #1E1E1E;
+    font-size: 1rem;
+}
+
+/* brand */
+.icons-brand img{
+    width: 104px;
+    height: 31px;
+    
+    margin-right: 50px;
+    
+}
+
+.icons-brand {
+
+    margin-left: 0px;
+    margin-top: 15px;
+    padding: 0px;
+}
+.images img {
+    width: 300px;
+    height: 300px;
+    border-radius: 3px;
+    justify-content: left;
+}
+/* text */
+
+.profile h1 {
+
+    color: #19345E;
+    font-weight: 450px;
+    font-size: 45px;
+}
+
+/* line 45*/
+
+
+.information .btn {
+    
+    padding: 15px 30px;
+    background: #19345E;
+    border-radius: 1px;
+    color:white;
+    font-size: 18px;
+}
+
+
+.content-icon-3 {
+    padding: 100px;
+
+}
+
+.icon-1 img {
+    width: min(100%, 36px);
+    /* margin-top: 50px; */
+    margin-left: 0px;
+}
+
+/* line 110 */
+
+.col-lg-10 h4{
+    font-size: 20px;
+    color: #19345E;
+    
+}
+
+.icon-2 img {
+    width: min(100%, 36px);
+    margin-top: 50px;
+    margin-left: 0px;
+}
+
+.icon-3 img {
+    width: min(100%, 36px);
+    margin-top: 50px;
+    margin-left: 0px;
+}
+
+.text-content-2 h2 {
+    /* margin-bottom: 100px; */
+    font-size: 52px;
+    font-weight: 700;
+    line-height: 62px;
+    color: #19345E;
+    margin-bottom: 16px;
+    letter-spacing: -0.94px;
+}
+
+.text-content-2 p {
+    font-size: 10px;
+    line-height: 30px;
+    margin-bottom: 30px;
+    letter-spacing: -0.94px;
+    align-items: center;
+    color: #1E1E1E;
+}
+
+.align .btn{
+    align-items: center;
+    color:white;
+    background:#19345E;
+    border-radius: 1px;
+    font-size: 18px;
+
+}
+
+/* footer */
+footer {
+    background-color: #19345E;
+    color: #ffffff;
+}
+
+.footer-brand img {
+    width: min(100% - 1rem, 130px);
+    margin-bottom: 20px;
+}
+
+.overview-footer span {
+    font-weight: 500;
+    font-size: 1.15rem;
+}
+
+.overview-footer p {
+    margin-top: 6px;
+}
+
+.overview-footer p .btn-footer {
+    color: white;
+    font-size: 1rem;
+    font-weight: 400;
+    text-decoration: none;
+}
+
+.footer-section-1 {
+    border-bottom: 1px solid rgba(255,255,255, 0.1);
+}
+
+.nav-footer .nav-link {
+    color: white;
+}
+
+
+/* Informasi line 136 */
+
+
+.information .icon-information {
+    background-color: #E7EBFC;
+    /* width: 100px; */
+    height: 80px;
+    border-radius: 55%;
+    position: relative;
+    /* margin: 20px; */
+}
+
+.information .icon-information img{
+    position: absolute;
+    top: 30%;
+    right: 20%;
+}
+
+
+.book-content {
+    background-color: #E7EBFC;
+    padding: 100px 250px 50px 250px;
+    color: #19345E;
+    
+}
+
+.book-content h2 {
+    font-size: 3.25rem;
+    font-weight: 700;
+    line-height: 62px;
+    margin-bottom: 24px;
+}
+
+.book-content p {
+    font-size: 1.15rem;
+    line-height: 28px;
+    margin-bottom: 60px;
+}
+
+.body-book {
+    border-bottom: 2px solid #B4B4B4;
+}
+
+
+
+/* line 239 */
+.img-sponsorship img {
+    width: min(100% - 1rem, 140px);
+}
+
+
+
+/* end line 200 End */
+
+.btn-forward img{
+    width: min(100%, 10px);
+    /* margin-top: 50px; */
+    margin-left: 0px;
+    border-radius: 3px;
+    
+}
+
+.btn-forward {
+    padding: 15px 30px;
+    border-radius: 1px;
+    color:#19345E;
+    font-size: 14px;
+    border: none;
+    background: transparent;
+}
+
+.Ended {
+    background: #E7EBFC;
+    border-radius: 3px;
+    margin: 100px;
+    margin-block: 150px;
+    padding: 10px;
+
+    
+}
+
+.profile-Graduation h1{
+    font-size: 42px;
+    line-height: 52px;
+    color: #19345E;
+    line-height: 52px;
+}
+
+.profile-Graduation p {
+    color: #1E1E1E;
+    font-size: 42px;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 42px;
+    line-height: 52px;
+    letter-spacing: -0.76px;
+    
+    width: 560px;
+    height: 260px;
+    left: 260px;
+    top: 318px;
+}
+
+/* gambar org */
+.Ended .text-end img{
+    width: 380px;
+    height: 420px;
+    left: 895px;
+    top: 231px;
+}
+
+.Ended .icon img{
+    width: min(100%, 100px);
+    
+}
+
+/*---------------------------------------- follow line 228 ------------------------------------*/
+
+.follow h1{
+    color: #19345E;
+    font-size: 42px;
+    margin-bottom: 100px;
+    padding: 10px;
+
+}
+
+
+.follow .circle{
+    color: #19345E;
+    
+}
+
+.follow .circle line{
+    width: 183px;
+    height: 0px;
+    opacity: 0.4;
+    border: 2px dashed #19345E;
+    flex: none;
+    order: 1;
+    align-self: center;
+    flex-grow: 0;
+}
+
+
+
+
+/* header-feature */
+
+.jumbotron {
+    background-color: #E7EBFC;
+    color: #19345E;
+    padding-top: 134px;
+    padding-bottom: 100px;
+    padding-left: 90px;
+    padding-right: 90px;
+}
+
+.section-profil h1 {
+    font-size: 4rem;
+    font-weight: 700;
+    margin-bottom: 36px;
+    line-height: 72px;
+}
+
+.section-profil i {
+    font-size: 1.5rem;
+    line-height: 34px;
+}
+
+.img-profil img {
+    width: min(100%, 90px);
+}
+
+.text-profil p {
+    margin-bottom: 7px;
+    padding-bottom: 0px;
+    font-weight: 500;
+    font-size: 1.125rem;
+}
+
+.btn-header {
+    background-color: #19345E;
+    text-decoration: none;
+    padding: 15px 25px;
+    color: #ffffff;
+}
+
+.btn-header:hover {
+    color: white;
+}
+
+/* content 1  */
+.content-features-1 {
+    background-color: #19345E;
+    color: #ffffff;
+    padding: 100px;
+}
+
+.content-features-1 h3 {
+    font-size: 2.6rem;
+    font-weight: 700;
+    margin-bottom: 8px;
+}
+
+.content-features-1 p {
+    margin-bottom: 50px;
+    font-size: 1.25rem;
+}
+
+.border-right {
+    border-right: 1px solid rgba(255,255,255, 0.1);
+}
+
+.content-features-1 h2 {
+    font-size: 3.25rem;
+    margin-bottom: 0px;
+}
+
+.content-features-1 span {
+    font-size: 1.125rem;
+}
+
+/* content-2 */
+
+.content-features-2 {
+    padding: 120px;
+    color: #19345E;
+}
+
+.text-content-2 h2 {
+    margin-bottom: 30px;
+    font-size: 3.25rem;
+    font-weight: 700;
+    line-height: 62px;
+}
+
+.text-content-2 p {
+    font-size: 1.25rem;
+    line-height: 30px;
+    margin-bottom: 30px;
+}
+
+.text-content-2 .icon-play .icon-play-border {
+    border-radius: 50%;
+    border: 2px solid #19345E;
+    width: min(100%, 50px);
+}
+
+.icon-play span {
+    margin-left: 15px;
+    font-size: 1.125rem;
+    font-weight: 500;
+}
+
+.img-content-2 {
+    background: url("../images/stock_photo.jpg") rgba(25, 52, 94, 0.6);
+    background-blend-mode: overlay;
+    width: 400px;
+    height: 500px;
+    background-position: bottom;
+    background-size: cover;
+    background-repeat: no-repeat;
+    position: relative;
+    /* object-fit: cover; */
+}
+
+.img-content-2 span {
+    color: #ffffff;
+    position: absolute;
+    bottom: 5%;
+}
+
+/* content features 3 */
+.content-features-3 {
+    padding: 120px;
+    color: #19345E;
+}
+
+.icon-features-3 {
+    flex-basis: 35%;
+}
+
+
+.icon-features-3 img {
+    width: min(100%, 36px);
+    margin-bottom: 21px;
+}
+
+.icon-features-3 h4 {
+    font-size: 1.25rem;
+    font-weight: 700;
+}
+
+.icon-features-3 p {
+    font-size: 1rem;
+}
+
+.img-content-features-3 img{
+    width: min(100% - 1rem, 500px);
+}
+
+/* content-features-4 */
+.content-features-4 {
+    color: #19345E;
+    padding: 100px;
+}
+
+.content-features-4 .container p {
+    font-size: 1.5rem;
+}
+
+.content-features-4 h3 {
+    font-size: 2.6rem;
+    font-weight: 700;
+}
+
+.img-arrow img {
+    background-color: #E7EBFC;
+    border-radius: 50%;
+    width: min(100%, 65px);
+    padding: 15px;
+}
+
+.img-arrow img:last-child {
+    margin-left: 10px;
+}
+
+.leadership .img-leadership {
+    max-height: 380px;
+    height: 380px;
+    min-height: 180px;
+    width: 350px;
+    max-width: 350px;
+    min-width: 150px;
+    background-color: #E7EBFC;
+    margin-top: 50px;
+    margin-bottom: 25px;
+}
+
+.leadership p {
+    font-size: 1.5rem;
+    font-weight: 600;
+    margin-bottom: 4px;
+}
+
+.leadership span {
+    color: #1E1E1E;
+    font-size: 1.25rem;
+    font-weight: 500;
+}
+
+/* content-features-5 */
+.content-features-5 {
+    color: #19345E;
+    padding: 100px 50px;
+}
+
+.content-features-5 h2 {
+    font-size: 2.6rem;
+    font-weight: 700;
+}
+
+.content-features-5 img {
+    width: min(100% - 1rem, 150px);
+}
+
