@@ -33,31 +33,45 @@
     margin-top: 15px;
     padding: 0px;
 }
-.images img {
-    width: 300px;
-    height: 300px;
-    border-radius: 3px;
-    justify-content: left;
+
+/* information section */
+
+.header {
+    padding: 120px 100px;
 }
-/* text */
 
-.profile h1 {
-
+.header .profile h1 {
     color: #19345E;
     font-weight: 450px;
-    font-size: 45px;
+    font-size: 64px;
+    font-weight: 700;
 }
 
-/* line 45*/
+.header .profile p {
+    font-size: 20px;
+    width: min(100% - 1rem, 470px);
+    margin-bottom: 40px;
+}
 
-
-.information .btn {
-    
+.header .btn {
     padding: 15px 30px;
     background: #19345E;
     border-radius: 1px;
     color:white;
     font-size: 18px;
+}
+
+.header .images img{
+    width: min(100% - 1rem, 480px);
+}
+
+.header .opener-icon img {
+    width: min(100% - 1rem, 110px);
+    margin-right: 20px;
+}
+
+.header .opener-icon .brand-amazon {
+    width: min(100% - 1rem, 125px)!important;
 }
 
 
