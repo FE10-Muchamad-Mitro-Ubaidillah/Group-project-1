@@ -452,10 +452,9 @@ footer {
 .img-benefit {
     background-color: #E7EBFC;
     /* width: 100px; */
-    height: 98px;
+    height: 95px;
     border-radius: 50%;
     position: relative;
-
 }
 
 .benefit-section img {

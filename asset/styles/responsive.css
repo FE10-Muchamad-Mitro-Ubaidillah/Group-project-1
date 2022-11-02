@@ -17,9 +17,25 @@
         margin-left: 10px;
     }
 
-    .section-profil .btn-header {
+    /* section book content */
 
+    .book-content {
+        padding: 100px 50px;
     }
+
+    .book-content .body-book {
+        padding-bottom: 50px;
+    }
+
+    .book-content .body-book h2 {
+        font-size: 2.3rem;
+        line-height: 50px;
+    }
+
+
+    /* footer */
+
+
 
     /* features page */
     /* content-1 */
@@ -81,5 +97,216 @@
     .icon-features-3 {
         flex-basis: 40%;
         margin-bottom: 20px;
+    }
+
+    .content-features-4 h3 {
+        font-size: 2.1rem;
+    }
+
+    .leadership .img-leadership {
+        width: 300px;
+        height: 300px;
+    }
+}
+
+@media (max-width: 767.98px) {
+    /* global content */
+
+    /* jumbotron header */
+    .jumbotron{
+        padding: 100px 50px;
+    }
+
+    .jumbotron .section-profil h1 {
+        font-size: 2.5rem;
+        line-height: 50px;
+    }
+
+    .jumbotron .section-profil i {
+        font-size: 1rem;
+    }
+
+    .section-profil .img-profil {
+        margin-top: 10px;
+        margin-left: 10px;
+    }
+
+    /* book content */
+
+    .book-content {
+        padding: 50px 30px;
+    }
+
+    .book-content .body-book {
+        padding-bottom: 50px;
+    }
+
+    .book-content .body-book h2 {
+        font-size: 2rem;
+        line-height: 50px;
+    }
+
+
+    /* features page */
+    .content-features-1 {
+        padding: 75px 50px;
+    }
+
+    .content-features-1 h3 {
+        font-size: 1.8rem;
+    }
+
+    .content-features-1 p {
+        font-size: 1rem;
+    }
+
+    .content-features-1 h2 {
+        font-size: 2rem;
+    }
+
+    .content-features-1 span {
+        font-size: 0.8rem;
+    }
+
+    /* content features 2 */
+    .content-features-2{
+        padding: 75px;
+    }
+
+    .content-features-2 .text-content-2 h2 {
+        font-size: 1.7rem;
+        line-height: 50px;
+        text-align: center;
+    }
+
+    .content-features-2 .text-content-2 p {
+        font-size: 1rem;
+        text-align: justify;
+    } 
+
+    .content-features-2 .img-content-2 {
+        width: 100%;
+        height: 300px;
+        margin-bottom: 15px;
+    }
+
+    .content-features-2 .img-content-2 span {
+        right: 30%;
+    }
+
+    /* content features 3 */
+    .content-features-3 {
+        padding: 50px;
+    }
+
+    .img-content-features-3 img{
+        width: 100%;
+        margin-inline: auto;
+        height: 300px;
+        object-fit: cover;
+        margin-bottom: 50px;
+    }
+
+    .icon-features-3 {
+        flex-basis: 40%;
+        margin-bottom: 20px;
+    }
+
+    .icon-features-3 p {
+        font-size: 0.8rem;
+    }
+
+    /* content features 4 */
+    .content-features-4 {
+        padding: 50px;
+    }
+
+    .content-features-4 h3 {
+        font-size: 1.8rem;
+    }
+
+    .leadership .img-leadership {
+        width: 200px;
+        height: 200px;
+    }
+
+    /* content features 5 */
+    .content-features-5 {
+        padding: 50px;
+    }
+
+    .content-features-5 h2 {
+        font-size: 2rem;
+    }
+}
+
+@media (max-width: 575.98px) {
+    /* global content */
+
+    /* jumbotron header */
+    .jumbotron{
+        padding: 50px 30px;
+    }
+
+    .jumbotron .section-profil h1 {
+        font-size: 1.8rem;
+        line-height: 35px;
+        margin-bottom: 15px;
+    }
+
+    .jumbotron .section-profil i {
+        font-size: 1rem;
+    }
+
+    .section-profil .img-profil {
+        margin-top: 15px;
+        margin-left: 15px;
+    }
+
+    /* content-features-1 */
+    .content-features-1 {
+        padding: 75px 35px;
+    }
+
+    .content-features-1 h3 {
+        font-size: 1.6rem;
+    }
+
+    .content-features-1 h2 {
+        font-size: 2rem;
+    }
+
+    .content-features-1 span {
+        font-size: 0.7rem;
+        line-height: 20px;
+    }
+
+    .content-features-1 .border-right {
+        border: none;
+    }
+
+    /* content-features-2 */
+    .content-features-2 {
+        padding: 75px 50px;
+    }
+
+    .content-features-2 .text-content-2 h2 {
+        font-size: 1.5rem;
+        line-height: 35px;
+        margin-bottom: 15px;
+    }
+
+    /* content-features-3 */
+    .content-features-3 {
+        padding: 35px;
+    }
+
+    .icon-features-3 {
+        flex-basis: 40%;
+        margin-bottom: 20px;
+    }
+
+    .icon-features-3 h4 {
+        font-size: 1rem;
     }
 }
