@@ -172,21 +172,29 @@ footer {
 
 /* Informasi line 136 */
 
+.information {
+    padding: 100px;
+}
+
+.information h2 {
+    font-size: 52px;
+    font-weight: 700;
+    color: #19345E;
+}
 
 .information .icon-information {
     background-color: #E7EBFC;
-    /* width: 100px; */
-    height: 80px;
-    border-radius: 55%;
+    height: 90px;
+    border-radius: 50%;
     position: relative;
-    /* margin: 20px; */
 }
 
 .information .icon-information img{
     position: absolute;
     top: 30%;
-    right: 20%;
+    right: 30%;
 }
+
 
 
 .book-content {
@@ -224,66 +232,54 @@ footer {
 
 /* end line 200 End */
 
-.btn-forward img{
-    width: min(100%, 10px);
-    /* margin-top: 50px; */
-    margin-left: 0px;
-    border-radius: 3px;
-    
-}
-
 .btn-forward {
-    padding: 15px 30px;
-    border-radius: 1px;
     color:#19345E;
-    font-size: 14px;
-    border: none;
+    font-size: 16px;
     background: transparent;
+    border: none;
+    text-align: left; 
+    padding-left: 0;
 }
 
 .Ended {
     background: #E7EBFC;
     border-radius: 3px;
     margin: 100px;
-    margin-block: 150px;
-    padding: 10px;
+}
 
-    
+.Ended .profile-Graduation {
+    padding: 100px 50px 100px 100px;
 }
 
 .profile-Graduation h1{
     font-size: 42px;
-    line-height: 52px;
     color: #19345E;
-    line-height: 52px;
+    font-weight: 700;
+    margin-bottom: 30px;
 }
 
 .profile-Graduation p {
     color: #1E1E1E;
     font-size: 42px;
-    font-style: normal;
     font-weight: 400;
-    font-size: 42px;
     line-height: 52px;
     letter-spacing: -0.76px;
-    
-    width: 560px;
-    height: 260px;
-    left: 260px;
-    top: 318px;
 }
 
 /* gambar org */
-.Ended .text-end img{
-    width: 380px;
-    height: 420px;
-    left: 895px;
-    top: 231px;
+.Ended .images img{
+    width: min(100%, 400px);
 }
 
-.Ended .icon img{
-    width: min(100%, 100px);
-    
+.Ended .profile-Graduation img{
+    width: min(100%, 105px);
+    margin-top: 30px;
+}
+
+.Ended .profile-Graduation .btn-forward img {
+    width: min(100%, 30px);
+    margin-top: 0;
+
 }
 
 /*---------------------------------------- follow line 228 ------------------------------------*/
@@ -291,15 +287,20 @@ footer {
 .follow h1{
     color: #19345E;
     font-size: 42px;
-    margin-bottom: 100px;
+    margin-bottom: 60px;
     padding: 10px;
 
 }
 
 
+.follow {
+    padding: 50px 100px;
+}
+
 .follow .circle{
     color: #19345E;
-    
+    margin-right: 20px;
+    flex-basis: 23%;
 }
 
 .follow .circle line{
@@ -311,6 +312,12 @@ footer {
     order: 1;
     align-self: center;
     flex-grow: 0;
+}
+
+.follow .circle h2 {
+    font-size: 24px;
+    font-weight: 700;
+    margin-top: 20px;
 }
 
 
