@@ -1,0 +1,111 @@
+@media (max-width: 991.98px) {
+
+    /* .section-solution */
+    .section-solution h2 {
+        font-size: 3rem;
+    }
+
+    .section-solution .card {
+        flex-basis: 45%;
+    }
+
+    .section-solution .card-title {
+        font-size: 1.3rem;
+    }
+
+    /* benefit section */
+    .benefit-section h2{
+        font-size: 2.5rem;
+    }
+
+    .benefit-section .img-benefit {
+        height: 93px;
+        border-radius: 50%;
+        position: relative;
+    
+    }
+
+    .benefit-section .benefit-text {
+        margin-left: 20px;
+    }
+
+    /* testimoni section */
+    .testimoni-section {
+        padding: 50px 100px;
+    }
+    
+    .testimoni-section .img-testimoni {
+        text-align: center!important;
+        margin-bottom: 30px;
+    }
+
+    .testimoni-section .img-testimoni img {
+        width: min(100% - 3rem, 400px);
+    }
+
+    .testimoni-section .review-testimoni p{
+        font-size: 2.2rem;
+        text-align: center;
+    }
+
+    .testimoni-section .review-testimoni .companies {
+        text-align: center;
+    }
+
+    /* teammates section */
+    .teammates-section {
+        padding: 100px 75px;
+    }
+
+    .teammates-section h2 {
+        font-size: 3rem;
+    }
+
+    .teammates-section .img-team {
+        height: 200px;
+    }
+
+    .teammates-section p {
+        font-size: 1.3rem;
+    }
+}
+
+@media (max-width: 767.98px) {
+    /* .section-solution */
+    .section-solution h2 {
+        font-size: 2.5rem;
+    }
+
+    .section-solution .card {
+        flex-basis: 100%;
+    }
+
+    .section-solution .card-title {
+        font-size: 1.5rem;
+    }
+    
+    .section-solution .card .card-body img {
+        width: min(100% - 1rem, 80px);
+    }
+
+    /* benefit section */
+    .benefit-section h2{
+        font-size: 2.2rem;
+    }
+
+    .benefit-section .img-benefit {
+        width: min(100% - 1rem, 150px);
+        height: 150px;
+    }
+
+    .benefit-section .img-benefit img {
+        width: min(100% - 2rem, 70px);
+        top: 30%;
+        left: 30%;
+    }
+
+    .benefit-section .benefit-text {
+        /* margin-left: 20px; */
+        text-align: center;
+    }
+}

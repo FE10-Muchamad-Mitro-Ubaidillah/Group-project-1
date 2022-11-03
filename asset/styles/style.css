@@ -314,6 +314,10 @@ footer {
 
 /* about page */
 
+.btn-coba {
+    background-color: #19345E;
+}
+
 /* .section-solution */
 
 .section-solution {
@@ -329,13 +333,14 @@ footer {
     text-align: center;
     margin-inline: auto;
     width: min(100% - 2rem, 750px);
-    margin-bottom: 50px;
+    margin-bottom: 70px;
 }
 
 .section-solution .card {
     border-radius: 0;
     border: none;
     padding: 40px 20px;
+    flex-basis: 30%;
 }
 
 .section-solution .card img {
