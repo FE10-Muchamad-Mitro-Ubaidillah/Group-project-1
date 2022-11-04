@@ -1,0 +1,128 @@
+@media (max-width: 1199.98px) {
+    /* header */
+    .header .profile h1 {
+        font-size: 50px;
+    }
+
+    .header .profile p {
+        font-size: 18px;
+    }
+
+    /* content-icon-3 */
+    .content-icon-3 {
+        padding: 100px 75px;
+    }
+
+    .text-content-2 h2 {
+        font-size: 3rem;
+    }
+
+    /* information section */
+    .information .icon-information {
+        height: 70px;
+    }
+
+    .information .icon-information img {
+        right: 22%;
+        top: 22%;
+    }
+}
+
+@media (max-width: 991.98px) {
+    /* header */
+    .header {
+        padding: 75px;
+    }
+
+    .header .profile h1 {
+        font-size: 35px;
+    }
+
+    .header .profile p {
+        font-size: 15px;
+    }
+
+    .header .btn {
+        font-size: 15px;
+        padding: 10px 25px;
+    }
+
+    .opener-icon img {
+        width: min(100% - 1rem, 80px);
+    }
+
+    .opener-icon .brand-amazon {
+        width: min(100% - 1rem, 90px);
+    }
+
+    /* content-icon-3 */
+    .content-icon-3 {
+        padding: 100px 50px;
+    }
+
+    .text-content-2 h2 {
+        font-size: 2.5rem;
+    }
+    
+    /* information section */
+    .information {
+        padding: 50px;
+    }
+
+    .information h2 {
+        margin-bottom: 50px;
+    }
+
+    .information .icon-information {
+        height: 70px;
+    }
+
+    .information .icon-information img {
+        right: 22%;
+        top: 22%;
+    }
+}
+
+@media (max-width: 767.98px) {
+    .header {
+        padding: 50px;
+    }
+
+    .header .images {
+        margin-bottom: 30px;
+    }
+
+    .header .images img {
+        width: min(100% - 2rem, 300px);
+    }
+
+    .header .profile h1 {
+        font-size: 30px;
+    }
+
+    /* content-icon-3 */
+    .content-icon-3 {
+        padding: 50px 25px;
+    }
+
+    .text-content-2 h2 {
+        font-size: 1.9rem;
+        line-height: 45px;
+    }
+
+    .text-content-2 p {
+        font-size: 1rem;
+    }
+
+    .align .btn {
+        font-size: 15px;
+    }
+}
+
+@media (max-width: 575.98px) {
+    /* content-icon-3 */
+    .text-content-2 {
+        margin-bottom: 50px;
+    }
+
+}
