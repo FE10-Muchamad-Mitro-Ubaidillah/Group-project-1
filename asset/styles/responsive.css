@@ -34,8 +34,6 @@
 
     /* footer */
 
-
-
     /* features page */
     /* content-1 */
     .content-features-1 {
@@ -133,6 +131,25 @@
     .information .icon-information img {
         right: 22%;
         top: 22%;
+    }
+
+    /* contact page */
+    .jumbotron-contact {
+        height: 600px;
+    }
+
+    .container-button .item {
+        flex-basis: 100%;
+        margin-bottom: 20px;
+    }
+
+    a .btn-contact, a .btn-email{
+        width: 100%;
+        padding: 15px;
+    }
+
+    .jumbotron-contact p {
+        margin-bottom: 30px;
     }
 }
 
@@ -258,6 +275,33 @@
 
     .teammates-section p {
         font-size: 1.3rem;
+    }
+
+    /* contact page */
+    .jumbotron-contact {
+        height: 650px;
+    }
+
+    .container-button .item {
+        flex-basis: 35%;
+        margin-right: 30px;
+    }
+
+    .jumbotron-contact .container-brand {
+        margin-top: 25px;
+        margin-bottom: 70px;
+    }
+
+    .container-form {
+        padding: 30px;
+        position: relative;
+        margin-top: -100px;
+
+    }
+
+    .our-office {
+        padding: 100px;
+        margin-top: 0px;
     }
 }
 
