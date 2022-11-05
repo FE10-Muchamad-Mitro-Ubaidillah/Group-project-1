@@ -9,7 +9,7 @@
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet"
     integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
   <link rel="stylesheet" href="../asset/styles/contact.css">
-  <link rel="stylesheet" href="./asset/styles/responsive.css">
+  <link rel="stylesheet" href="../asset/styles/responsive.css">
 </head>
 
 <body>
@@ -44,150 +44,126 @@
       </div>
     </nav>
 
-
     <!-- form order -->
-    <section class="jumbotron">
+    <section class="jumbotron-contact">
       <div class="container">
-        <div class="row">
-          <div class="col-lg-6 section-profil">
+        <div class="d-flex flex-wrap justify-content-between">
+          <div class="col-lg-5">
             <h1>Contact Us</h1>
             <p>if you any question about the subscription or are not sure which plan is right for you, contact out team
-              and let's schedule a call.</p>
-
-              
-              <a href="#" class="btn btn-header" role="button" data-bs-toggle="button">Contact us <br> (669) 984-9439 </a>
-              <a href="#" class="btn btn-header" role="button" data-bs-toggle="button">contact us <br>(669) 984-9439</a>
-
-           
-
-            <div class="container">
+              and let's schedule a call.
+            </p>
+            <div class="d-flex flex-wrap container-button">
+              <div class="item">
+                <a href="#" class="mb-lg-3">
+                  <div class="btn-contact">
+                    <p>Call us</p>
+                    <span class="fw-light">(669) 984-9439</span> 
+                  </div>
+                </a>
+              </div>
+              <div class="item">
+                <a href="#">
+                  <div class="btn-email">
+                    <p>Email</p>
+                    hello@openthrive.com
+                  </div>
+                </a>
+              </div>
             </div>
-          </div>
-
-          <div class="col-lg-6">
-            <div class="row">
-              <div class="col">
-                <label for="fullName" class="form-label">Your name <span>*</span></label>
-                <input type="text" class="form-control" placeholder="Enter your name" aria-label="Yourname"
-                  id="fullname">
-              </div>
-
-              <div class="col">
-                <label for="inputEmail" class="form-label">Your email<span>*</span></label>
-                <input type="text" class="form-control" placeholder=" Enter Your email" aria-label="email"
-                  id="inputEmail">
-              </div>
-            </div><br>
-
-            <div class="col">
-              <label for="validationServer04" class="form-label">Choose topic<span>*</span></label>
-              <select class="form-select is-invalid" id="validationServer04"
-                aria-describedby="validationServer04Feedback" required>
-                <option selected disabled value="">Select one topic</option>
-                <option>...</option>
-              </select>
-            </div>
-
-            <div class="col">
-              <div id="validationServer04Feedback" class="invalid-feedback">
-                Please select a valid state.
-              </div> <br>
-
-              <div class="col">
-                <label for="exampleFormControlTextarea1" class="form-label">Message<span>*</span></label>
-                <textarea class="form-control" placeholder="Write your message" id="exampleFormControlTextarea1"
-                  rows="3"></textarea>
-              </div>
-
-              <div class="mt-5 d-grid text-center">
-                <a href="#" class="btn-header">Contact us</a>
-              </div>
-
+            <div class="d-flex container-brand">
+              <img src="../asset/icons/Google2.png" alt="google">
+              <img src="../asset/icons/Amazon2.png" alt="Amazon">
+              <img src="../asset/icons/Intel.png" alt="Intel">
+              <img src="../asset/icons/Atlassian.png" alt="Atlassian">
             </div>
           </div>
         </div>
       </div>
     </section>
-
-    <!-- icon -->
-
-
-    <div class="row p-5 align-items-center">
-      <div class="d-flex col-lg-2">
-        <img src="../asset/icons/Philips.png" alt="Philips brand">
+    <div class="container">
+      <div class="row justify-content-center">
+        <div class="col-lg-5 container-form card">
+          <div class="card-body">
+            <div class="card-title">
+              <h4>Let’s Talk!</h4>
+            </div>
+            <div class="card-text">
+              <p>If you have any question or issue’s to use our product. Fill the form below. We’ll help you.</p>
+            </div>
+            <form action="">
+              <div class="row">
+                <div class="col-lg-6 mb-3">
+                  <label for="name" class="form-label">Your name*</label>
+                  <input type="text" class="form-control" id="name" placeholder="Enter Your Name" required>
+                </div>
+                <div class="col-lg-6 mb-3">
+                  <label for="name" class="form-label">Your email*</label>
+                  <input type="email" class="form-control" id="email" placeholder="Enter Your Email" required>
+                </div>
+                <div class="col-lg-12 mb-3">
+                  <label for="name" class="form-label">Choose topic*</label>
+                  <select class="form-select" aria-label="Default select example">
+                    <option selected>Select one topic</option>
+                    <option value="1">One</option>
+                    <option value="2">Two</option>
+                    <option value="3">Three</option>
+                  </select>
+                </div>
+                <div class="col-lg-12 mb-3">
+                  <label for="exampleFormControlTextarea1" class="form-label">Message*</label>
+                  <textarea class="form-control" id="exampleFormControlTextarea1" rows="5"></textarea>
+                </div>
+                <div class="col-lg-12 mt-3">
+                  <button class="btn-form w-100">Contact Us</button>
+                </div>
+              </div>
+            </form>
+          </div>
+        </div>
       </div>
     </div>
 
-    <!-- <div class="row align-self-left">
-      <div class="d-flex opener-icon p-0 mt-lg-6">
-        <img src="../asset/icons/Google2.png" alt="arrow right" height="150" width="100" class="brand-google">
-        <img src="../asset/icons/Amazon2.png" alt="arrow right" height="150" width="100" class="brand-amazon">
-        <img src="../asset/icons/Intel.png" alt="arrow right" height="150" width="100" class="brand-intel">
-        <img src="../asset/icons/Atlassian.png" alt="arrow right" height="150" width="100" class="brand-intel">
-      </div>
-    </div> -->
-    <!-- </div> -->
+    <!-- icon -->
 
+    
   </header>
   <!-- image office -->
   <main>
-
-    <section class="content-features-4">
+    <section class="our-office">
       <div class="container">
-        <div class="row align-items-end justify-content-between">
-          <div class="col-8">
-            <h3>Our Office</h3>
-          </div>
-          <div class="col-4">
-          </div>
-          <div class="col-5 office">
-            <p><img src="../asset/images/img_article.jpg" alt="img-article"></p>
-            <!-- <div class="img-office"></div> -->
-            <p>Vancouver Office</p>
-            <span>1085 Homer St. Vancouver BC, Canada V6B 2x5</span>
-            <p1>open in map</p1>
-          </div>
-          <div class="col-5 office">
-            <p><img src="../asset/images/img_blog.jpg" alt="img-article"></p>
-            <!-- <div class="img-office"></div> -->
-            <p>San Fransisco</p>
-            <span>1085 Homer St. Vancouver BC, Canada V6B 2x5</span>
-            
-            <p1>open in map</p1>
-          </div>
-
+        <div class="d-flex flex-wrap mb-lg-5">
+          <h1>Our office</h1>
+          <span>Amazing cities, totally tricked out offices. Explore the world of Tweakful.</span>
         </div>
-      </div>
-    </section>
-
-
-    <section class="book-content text-center">
-      <div class="container body-book pb-lg-5">
-        <h2>The Is Closing Headline To Make A Impact For Call To Action</h2>
-        <p>Nowadays, it isn’t uncommon to see lenders rapidly adopting a digital lending strategy to streamline the
-          lending process nowadays, it isn’t uncommon to see lenders rapidly</p>
-        <a href="#" class="btn-header">Book A Meeting &nbsp;<img src="../asset/icons/long_right.png" alt="arrow right"
-            class="img-icon-arrow"></a>
-      </div>
-      <div class="container img-sponsorship">
-        <div class="row p-5 align-items-center">
-          <div class="col-lg-2">
-            <img src="../asset/icons/Philips.png" alt="Philips brand">
+        <div class="row">
+          <div class="col-lg-6">
+            <div class="card">
+              <img src="../asset/images/img_article.jpg" alt="" style="border-radius: 0;">
+              <div class="card-body">
+                <div class="card-title">
+                  <h5>Vancouver Office</h5>
+                </div>
+                <p class="card-text">
+                  1085 Homer St. Vancouver BC, Canada V6B 2X5
+                </p>
+                <a href="#" class="btn-office">Open in Maps ></a>
+              </div>
+            </div>
           </div>
-          <div class="col-lg-2">
-            <img src="../asset/icons/Logitech.png" alt="Logitech brand">
-          </div>
-          <div class="col-lg-2">
-            <img src="../asset/icons/Amazon.png" alt="Amazon brand">
-          </div>
-          <div class="col-lg-2">
-            <img src="../asset/icons/Facebook.png" alt="Facebook brand">
-          </div>
-          <div class="col-lg-2">
-            <img src="../asset/icons/Google.png" alt="Google brand">
-          </div>
-          <div class="col-lg-2">
-            <img src="../asset/icons/Linkedin.png" alt="Linkedin brand">
+          <div class="col-lg-6">
+            <div class="card">
+              <img src="../asset/images/img_blog.jpg" alt="" style="border-radius: 0;">
+              <div class="card-body">
+                <div class="card-title">
+                  <h5>San Fransisco</h5>
+                </div>
+                <p class="card-text">
+                  1085 Homer St. Vancouver BC, Canada V6B 2X5
+                </p>
+                <a href="#" class="btn-office">Open in Maps ></a>
+              </div>
+            </div>
           </div>
         </div>
       </div>
